@@ -1,0 +1,25 @@
+div{
+    background-color: rgb(249, 255, 192);
+    margin: 10px;
+    padding: 80px;
+    transition-property: background-color, padding; /* with and without padding */
+    transition-delay: 0s;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+div:hover{
+    background-color: red;
+    padding: 30px
+}
+img{
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    transition-property: width;
+    transition-delay: 0s;
+    transition-duration: 0s;
+    transition-timing-function: ease out;
+}
+img:hover{
+    width: 300px;
+}
