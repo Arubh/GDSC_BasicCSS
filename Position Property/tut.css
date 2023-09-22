@@ -1,0 +1,23 @@
+div{
+    background-color: rgb(106, 185, 185);
+    margin-top: 20px;
+    height: 100px;
+}
+.box1{
+    background-color: rgb(219, 105, 105);
+    /* position: static; */
+    /* position: relative; */
+    /* position: absolute; */
+    /* position: fixed; */
+    top: 50px;
+    right: 20px;
+
+}
+.box2{
+    background-color: green;
+    height: 30px;
+    width: 400px;
+    /* position: absolute; */
+    bottom: 60px;
+    left: 40px;
+}
