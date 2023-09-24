@@ -1,0 +1,153 @@
+
+/* try playing around and changing the values to see differences */
+/* Pseudo-class selector */
+a:hover {
+    color: red;
+}
+
+/* Pseudo-class selector */
+li:nth-child(odd) {
+    background-color: lightgray;
+}
+
+/* Pseudo-element selector */
+p::first-line {
+    font-weight: bold;
+}
+
+/* Pseudo-element selector */
+p::before {
+    content: ">> ";
+    color: green;
+}
+
+/* Pseudo-element selector */
+p::after {
+    content: " <<";
+    color: green;
+}
+
+/* Attribute selector */
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+/* Attribute selector */
+a[href^="https://"] {
+    color: blue;
+}
+
+/* Attribute selector */
+img[alt="logo"] {
+    border: 2px solid red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container {
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    padding: 10px;
+    border: 1px solid #ddd;
+    margin: 5px;
+}
+
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    margin: 10px 0;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+
+.external-link {
+    color: #FF5733;
+}
+
+
+img {
+    border: 2px solid red;
+    border-radius: 10px;
+}
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #f2f2f2;
+    font-family: 'Roboto', sans-serif; 
+    line-height: 1.6;
+}
