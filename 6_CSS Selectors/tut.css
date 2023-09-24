@@ -18,7 +18,7 @@
 
 
 /* try typing any of the combinator selectors(~,>,space,+) how each one works */
-.child-1 div{
+.child-1~div{
     background-color: aqua;
 }
 
