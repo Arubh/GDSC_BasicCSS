@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient & Shadow</title>
+    <style>
+        .cont{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        .box{
+            height:200px;
+            width:200px;
+            margin: 12px;
+            text-align: center;
+            background-color: rgb(233, 188, 245);
+        }
+
+        /* You can customize this part to see changes */
+        #box1{
+            background-image: linear-gradient(red, yellow,green);
+        }
+
+        #box2{
+            background-image: radial-gradient(red, yellow, green);
+        }
+
+        #box3{
+            background-image: conic-gradient(red, yellow, green);
+        }
+        #sh1{
+            height: 200px;
+            width: 600px;
+            border: 2px solid rgb(255, 0, 0); 
+            padding-top: 40px;
+            color: rgb(30, 0, 255);
+            font-size: 25px;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+            /* Edit this part to see changes */
+            text-shadow: 3px 3px red;
+            box-shadow: 10px 10px 8px black;
+        }
+    </style>
+</head>
+<body>
+    <h1>Gradient</h1>
+    <div class="cont">
+        <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+        <div class="box" id="box3"></div>
+    </div>      
+    <h1>Text And Box Shadow</h1>
+    <div class="cont">
+        <div class="box" id="sh1"><h1>Text Shadow</h1></div>
+    </div>      
+</body>
+</html>
