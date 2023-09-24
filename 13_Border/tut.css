@@ -1,0 +1,29 @@
+.cont{
+    display: flex;
+    justify-content: space-evenly;
+}
+.box{
+    height: 200px;
+    width: 300px;
+    border-width: 10px;
+    border-style: solid;
+    border-color: red;
+    
+    /* Shorthand Property */
+    /* border: 10px solid red; */
+
+    background-color: aquamarine;
+    margin: 20px;
+}
+#b1{
+    /* You can try other styles also by customizing it */
+    border-style: dashed;
+}
+#b2{
+    /* You can try other styles also by customizing it */
+    border-style: inset;
+}
+#b3{
+    /* You can change it accordingly */
+    border-radius: 20px;
+}
