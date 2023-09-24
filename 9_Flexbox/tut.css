@@ -1,20 +1,33 @@
-.flex-container{
-    background-color: rgb(9, 9, 153);
-    padding: 10px;
+*{
+    margin: 0px;
+    padding: 0px;
+}
 
+
+.flex-container{
+    background-color: skyblue;
+    padding: 10px;
+    margin: 20px;
+    border-radius: 20px;
+    height: 50vh;
     display: flex;
-    /* flex-direction: row; */
+    flex-direction: row;
     /* flex-direction: row-reverse; */
     /* flex-direction: column; */
     /* flex-direction: column-reverse; */
 
     /* justify-content: start; */
-    /* justify-content: center; */
+    /* justify-content: space-between; */
     /* justify-content: end; */
+
+     /* align-items: center; */
+    /* align-items: flex-start; */
+    /* align-items: flex-end;  */
 }
 .flex-item{
-    background-color: white;
+    background-color: greenyellow;
     width: 60px;
+    border-radius: 20px;
     height: 60px;
     margin: 10px;
     padding: 20px;
