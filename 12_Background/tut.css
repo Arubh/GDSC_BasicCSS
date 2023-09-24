@@ -1,0 +1,33 @@
+.bgcolor, .bgimg{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    /* border: 2px solid black; */
+}
+.bgbox{
+    height: 250px;
+    width: 400px;
+    border: 2px solid red;
+    margin: 20px;
+    text-align: center;
+}
+#bg1{
+    background-color: #b6d7f3;
+    color: #0000FF;
+}
+#bg2{
+    background-color: rgb(100, 237, 130,0.5);
+    color: green;
+}
+#bg3{
+    background-color: rgba(195, 231, 254, 0.5);
+    color: #0000FF;
+}
+#bgimg1{
+    height: 500px;
+    width: 650px;
+    border: 2px solid red;
+    background-image:url(assets/background-image.jpg);
+    /* background-size: cover; */
+    /* background-repeat: repeat; */
+}
