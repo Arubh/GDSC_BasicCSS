@@ -15,9 +15,9 @@ changing these values to understand how they work */
     /* font-family:poppins ; */
     font-weight: 900;
     color: rgb(14, 242, 63);
-    text-align: left;
+    text-align: center;
     font-size: large;
-    text-decoration:dotted;
+    text-decoration: underline;
     line-height: 40px;
     /* letter-spacing: -5px; */
 }
