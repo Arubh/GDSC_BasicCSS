@@ -13,10 +13,13 @@ changing these values to understand how they work */
     /* font-style:italic; */
     font-family: 'Courier New', Courier, monospace;
     /* font-family:poppins ; */
-    font-weight: 400;
-    color: aquamarine;
-    text-align: center;
-    /* text-decoration: underline; */
+    font-weight: 900;
+    color: rgb(14, 242, 63);
+    text-align: left;
+    font-size: large;
+    text-decoration:dotted;
+    line-height: 40px;
+    /* letter-spacing: -5px; */
 }
 
 
@@ -120,11 +123,12 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 50px;
+    font-size: 3rem;
     font-family: 'Roboto', sans-serif;
+    padding: 2.5rem;
 }
 
 .text1, .text2{
     margin: 30px;
-    width: 100vw;
+    width: 100vw; 
 }
