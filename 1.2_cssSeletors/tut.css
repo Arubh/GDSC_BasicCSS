@@ -1,0 +1,23 @@
+/* try commenting out or changing the values below */
+*{
+    background-color: lightgray;
+    /* font-family: monospace; */
+}
+
+/* Notice how # is used for id and . is used for class */
+
+#idSelector{
+    background-color: skyblue;
+    font-family: cursive;
+}
+
+.classSelector{
+    background-color: lightgreen;
+    font-family: fantasy;
+}
+
+
+/* try typing any of the combinator selectors(~,>,space,+) how each one works */
+.child-1 div{
+    background-color: aqua;
+}
